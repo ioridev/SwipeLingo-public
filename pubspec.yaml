@@ -1,0 +1,112 @@
+name: swipelingo
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.26
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  sentry_flutter: ^8.14.2
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter       
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  hooks_riverpod: ^2.6.1
+  google_mobile_ads: ^6.0.0
+  http: ^1.3.0
+  youtube_caption_scraper: ^0.2.1
+  flutter_dotenv: ^5.2.1
+  youtube_explode_dart: ^2.4.0
+  dio: ^5.8.0+1
+  y_player: ^2.0.5+1
+  media_kit: ^1.2.0
+  media_kit_libs_video: ^1.0.6
+  media_kit_video: ^1.3.0
+  translator: ^1.0.3+1 # For machine translation (upgraded due to http conflict)
+  xml: ^6.5.0 # XML parsing
+  intl: ^0.20.2 # Downgrade to match flutter_localizations dependency
+  url_launcher: ^6.3.1
+  go_router: ^15.1.1
+  flutter_neumorphic_plus: ^3.4.0
+  receive_sharing_intent:
+    git:
+      url: https://github.com/KasemJaffer/receive_sharing_intent.git
+      ref: master
+  flutter_tts: ^3.8.5 # TTS機能
+  flutter_card_swiper: ^7.0.0 # Tinder風UI
+  path_provider: ^2.1.3 # ファイルパス取得
+  archive: ^3.6.1 # Zipファイル操作 (Anki Export用)
+  badges: ^3.1.2 # バッジ表示用
+  flutter_slidable: ^3.1.1 # スライドアクション用
+  purchases_flutter: ^8.8.0 # RevenueCat SDK
+  share_plus: ^11.0.0 # ファイル共有用 (バージョン更新)
+  in_app_review: ^2.0.9 # アプリ内レビュー用
+  firebase_core: ^3.13.1
+  firebase_analytics: ^11.4.5
+  cloud_firestore: ^5.6.8
+  firebase_storage: ^12.4.6
+  firebase_messaging: ^15.2.6
+  firebase_auth: ^5.5.4
+  freezed_annotation: ^2.4.1 # freezed用
+  json_annotation: ^4.9.0 # json_serializable用
+  carousel_slider: ^5.0.0 # 動画カルーセル用に追加
+  flutter_inappwebview: ^6.0.0 # アプリ内WebView用に追加
+  flutter_local_notifications: ^17.1.2 # ローカル通知用
+  shared_preferences: ^2.2.3 # データ永続化用
+  app_tracking_transparency: ^2.0.4 # ATT用
+  app_links: ^6.1.1 # Add app_links package
+  package_info_plus: ^8.0.0 # Package Info
+  lottie: ^3.3.0
+  uuid: ^4.5.1
+  googleapis: ^13.1.0 # Google API Client Library
+  googleapis_auth: ^1.6.0 # Google API Authentication Library
+  flutter_image_compress: ^2.3.0 # スクリーンショット圧縮用
+  cached_network_image: ^3.4.1
+  font_awesome_flutter: ^10.8.0
+  firebase_ai: ^2.0.0
+  permission_handler: ^11.3.1 # 権限管理用
+  jp_transliterate: ^1.0.1 # 日本語ルビ・ローマ字変換用
+  tiny_segmenter_dart: ^1.0.0
+  
+dev_dependencies:
+  sentry_dart_plugin: ^2.4.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  freezed: ^2.5.2 # freezed用
+  json_serializable: ^6.8.0 # json_serializable用
+  mockito: ^5.4.4 # モック生成用
+  flutter_launcher_icons: "^0.14.3"
+
+
+flutter:
+
+  uses-material-design: true
+  generate: true # これを追加または確認
+
+  assets:
+    - assets/icon/icon.png
+    - assets/animations/
+    - .env
+    - assets/ejdict.json
+    - assets/edictjp.json
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+sentry:
+  upload_debug_symbols: true
+  upload_source_maps: true
+  project: swipelingo
+  org: iori

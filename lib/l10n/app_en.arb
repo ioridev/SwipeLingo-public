@@ -1,0 +1,848 @@
+{
+  "@@locale": "en",
+  "helloWorld": "Hello World!",
+  "getMore": "Get",
+  "learningMenu": "Learning Menu",
+  "startLearning": "Start Learning",
+  "dueCardsWaitingForReview": "{count} cards waiting for review",
+  "@dueCardsWaitingForReview": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noScheduledCardsRandomMode": "No scheduled cards. Switching to random mode.",
+  "countRetrievalError": "Error retrieving count",
+  "createCardsFromVideo": "Create Cards from Video",
+  "learnNewWordsFromYouTube": "Learn new words from YouTube",
+  "cardDeckList": "Card Deck List",
+  "checkSavedVideoCards": "Check saved video cards",
+  "learningStats": "Learning Stats",
+  "learningStreakDays": "{count} days learning streak",
+  "@learningStreakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityLast105Days": "Activity in the last 105 days",
+  "activityRetrievalError": "Error retrieving activity",
+  "totalCardsLearned": "Total cards learned: {count}",
+  "@totalCardsLearned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cardCountRetrievalError": "Error retrieving card count",
+  "upgradeToSwipelingoPro": "Upgrade to Swipelingo Pro",
+  "unlimitedGemsNoAdsAccessAllFeatures": "Unlimited gems, no ads, access all features",
+  "review": "Review",
+  "couldNotLaunchUrl": "Could not launch URL: {urlString}",
+  "@couldNotLaunchUrl": {
+    "placeholders": {
+      "urlString": {
+        "type": "String"
+      }
+    }
+  },
+  "swipelingoPro": "Swipelingo Pro",
+  "noOfferingsAvailable": "No offerings currently available. Please check your store settings or try again later.",
+  "noPackagesAvailableInOffering": "No purchase plans currently available.\\n(Offering \"{offeringIdentifier}\" did not include any plans)",
+  "@noPackagesAvailableInOffering": {
+    "placeholders": {
+      "offeringIdentifier": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumFeatures": "Premium Features",
+  "unlimitedGems": "Unlimited Gems",
+  "unlimitedTranslationSubtitles": "No limit on displaying translated subtitles",
+  "adsFree": "Ad-Free",
+  "concentrateOnLearning": "Environment to concentrate on learning",
+  "unlimitedCardCreation": "Unlimited Card Creation",
+  "learnAsMuchAsYouWantDaily": "Learn as much as you want every day",
+  "premiumSupport": "Premium Support",
+  "prioritySupport": "Receive priority support",
+  "selectBestPlanForYou": "Select the best plan for you",
+  "purchaseTermsDescription": "Purchases will be charged to your Apple ID account. Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period. You can manage subscriptions and turn off auto-renewal in your account settings.\\n\\n",
+  "termsOfUseEULA": "Terms of Use (EULA)",
+  "privacyPolicy": "Privacy Policy",
+  "restoringPurchases": "Restoring purchases...",
+  "purchasesRestored": "Purchases restored.",
+  "restorePurchasesFailed": "Failed to restore purchases: {error}",
+  "@restorePurchasesFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "restorePurchasesButton": "Restore Purchases",
+  "loadingPlans": "Loading plans...",
+  "failedToLoadPlans": "Failed to load plans.",
+  "errorCode": "Error Code: {errorCode}",
+  "@errorCode": {
+    "placeholders": {
+      "errorCode": {
+        "type": "String"
+      }
+    }
+  },
+  "details": "Details: {details}",
+  "@details": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "Retry",
+  "weeklyPlan": "Weekly Plan",
+  "daysFreeTrial": "With 3-day free trial",
+  "monthlyPlan": "Monthly Plan",
+  "annualPlan": "Annual Plan",
+  "discountFromMonthly": "{discountPercentage}% off from monthly",
+  "@discountFromMonthly": {
+    "placeholders": {
+      "discountPercentage": {
+        "type": "String"
+      }
+    }
+  },
+  "recommended": "Recommended",
+  "perWeek": "per week",
+  "perMonth": "per month",
+  "startNow": "Start Now",
+  "selectButton": "Select",
+  "startingPurchaseProcess": "Starting purchase process...",
+  "purchaseCompletedThankYou": "Purchase completed! Thank you.",
+  "purchaseCompletedPlanNotActive": "Purchase completed, but the plan did not activate. Please contact support.",
+  "purchaseCancelled": "Purchase cancelled.",
+  "purchasePending": "Purchase process is pending. Please wait for approval from the store.",
+  "purchaseFailed": "Purchase failed: {errorMessage}",
+  "@purchaseFailed": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "unexpectedErrorOccurred": "An unexpected error occurred: {error}",
+  "@unexpectedErrorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "yourInvitationCode": "Your Invitation Code",
+  "copyButton": "Copy",
+  "invitationCodeCopied": "Invitation code copied",
+  "invitationCodeAlreadyUsed": "Invitation code has already been used",
+  "enterInvitationCode": "Enter Invitation Code",
+  "invitationCodeHint": "Invitation Code",
+  "applyButton": "Apply",
+  "errorDialogMessage": "Error: {err}",
+  "@errorDialogMessage": {
+    "placeholders": {
+      "err": {
+        "type": "String"
+      }
+    }
+  },
+  "rateTheApp": "Rate the App",
+  "reportBugsOrRequests": "Report Bugs/Requests",
+  "manageCards": "Manage Cards",
+  "premiumPlan": "Premium Plan",
+  "ankiExportCsv": "Anki Export (.csv)",
+"settingsReminderSettings": "Reminder Settings",
+  "pleaseRateTheApp": "Please rate the app",
+  "cancelButton": "Cancel",
+  "submitButton": "Submit",
+  "reviewFeatureNotAvailable": "Review feature is not available.",
+  "premiumFeatureOnly": "This feature is available for premium plan users only.",
+  "startingAnkiExport": "Starting Anki export process...",
+  "loginRequiredForExport": "Login is required for export.",
+  "noCardsToExport": "There are no cards to export.",
+  "ankiExportRequested": "Anki file export has been requested. Please select the Anki app from the share menu.",
+  "ankiExportFailed": "Failed to export Anki file.",
+  "errorDuringAnkiExport": "An error occurred during Anki export: {e}",
+  "@errorDuringAnkiExport": {
+    "placeholders": {
+      "e": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreCancelled": "Restore process cancelled.",
+  "networkErrorPleaseCheckConnection": "A network error occurred. Please check your connection.",
+  "storeCommunicationError": "There was a problem communicating with the store. Please try again later.",
+  "userAuthenticationRequired": "User authentication is required.",
+  "pleaseEnterInvitationCode": "Please enter the invitation code.",
+  "selectVideo": "Select Video",
+  "enterVideoUrlWithEnglishSubtitles": "Enter the URL of a video with Japanese subtitles",
+  "youtubeVideoUrl": "YouTube Video URL",
+  "pasteFromClipboard": "Paste from clipboard",
+  "recommendedVideos": "Recommended Videos",
+  "searchVideosOnYouTube": "Search Videos (YouTube)",
+  "generating": "Generating...",
+  "generateFlashcards": "Generate Flashcards",
+  "watchVideo": "Watch Video",
+  "generatingCards": "Generating cards...",
+  "processingCardCount": "Processing cards: {count}",
+  "@processingCardCount": {
+    "description": "Number of cards being processed",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exampleSearchQuery": "e.g., \"English conversation practice\"",
+  "searchResultsCount": "Search Results ({count})",
+  "@searchResultsCount": {
+    "description": "Number of search results",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fetchingVideoInfoCaptions": "Fetching video info & English captions...",
+  "requestingCardGenerationJa": "Requesting card generation (JA) from LLM...",
+  "processingGeneratedCards": "Processing generated cards...",
+  "deleteCurrentCardTooltip": "Delete current card",
+  "deleteCardTitle": "Delete Card",
+  "confirmDeleteCardMessage": "Delete \"{cardFront}\"? This action cannot be undone.",
+  "@confirmDeleteCardMessage": {
+    "placeholders": {
+      "cardFront": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCardConfirmButtonLabel": "Delete",
+  "cardDeletedSuccessMessage": "Card deleted.",
+  "cardDeletionFailedMessage": "Failed to delete card: {error}",
+  "@cardDeletionFailedMessage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCardsToReviewMessage": "There are no cards to review.",
+  "createCardsFromVideoButtonLabel": "Create Cards from Video",
+  "backToHomeButtonLabel": "Back to Home",
+  "rateAppTitle": "Rate App",
+  "thankYouForUsingSwipelingo": "Thank you for using Swipelingo!",
+  "pleaseRateOurApp": "If you have a moment, please consider rating our app. Your warm reviews are a great encouragement to our development!",
+  "howIsYourExperience": "How is your experience with the app?",
+  "writeReviewButton": "Write a Review",
+  "laterButton": "Later",
+  "learningDecksTitle": "Learning Decks",
+  "noLearningDecks": "No learning decks available.",
+  "createDeckFromYouTube": "Let's create a new deck from a YouTube video.",
+  "createDeckFromVideoButton": "Create Deck from Video",
+  "deleteDeckTooltip": "Delete Deck",
+  "deleteDeckDialogTitle": "Delete Deck",
+  "deleteDeckDialogContent": "Are you sure you want to delete \"{videoTitle}\" and all associated cards? This action cannot be undone.",
+  "@deleteDeckDialogContent": {
+    "placeholders": {
+      "videoTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deckDeletedSuccessfully": "Deck deleted successfully.",
+  "deckDeletionFailed": "Failed to delete deck: {error}",
+  "@deckDeletionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorOccurred": "An error occurred: {error}",
+  "@errorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retryButton": "Retry",
+  "cardListTitle": "Manage Cards",
+  "noCardsFound": "No cards found.",
+  "generateNewCardsFromVideos": "Let's generate new cards from videos.",
+  "generateFromVideosButton": "Generate from Videos",
+  "deleteCardTooltip": "Delete Card",
+  "deleteCardDialogTitle": "Delete Card",
+  "deleteCardDialogContent": "Are you sure you want to delete \"{cardFront}\"? This action cannot be undone.",
+  "@deleteCardDialogContent": {
+    "placeholders": {
+      "cardFront": {
+        "type": "String"
+      }
+    }
+  },
+  "cardDeletedSuccess": "Card deleted successfully.",
+  "cardDeletionFailed": "Failed to delete card: {error}",
+  "@cardDeletionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "sessionResults": "Session Results",
+  "accuracyRate": "Accuracy: {accuracyPercentage}%",
+  "@accuracyRate": {
+    "placeholders": {
+      "accuracyPercentage": {}
+    }
+  },
+  "correctIncorrectCount": "Correct: {correctCount} / Incorrect: {incorrectCount}",
+  "@correctIncorrectCount": {
+    "placeholders": {
+      "correctCount": {},
+      "incorrectCount": {}
+    }
+  },
+  "reviewedCards": "Reviewed Cards:",
+  "backToHome": "Back to Home",
+  "searchResultsTitle": "Search Results: \"{searchQuery}\"",
+  "@searchResultsTitle": {
+    "description": "Title for search results screen",
+    "placeholders": {
+      "searchQuery": {
+        "type": "String"
+      }
+    }
+  },
+  "errorPrefix": "Error: {errorMessage}",
+  "@errorPrefix": {
+    "description": "Prefix for error messages",
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "noVideosFoundMessage": "No videos with English subtitles were found.",
+  "@noVideosFoundMessage": {
+    "description": "Message displayed when no videos are found"
+  },
+  "playVideoInAppTooltip": "Play video in app",
+  "@playVideoInAppTooltip": {
+    "description": "Tooltip for the play video button"
+  },
+  "confirmDialogTitle": "Confirm",
+  "@confirmDialogTitle": {
+    "description": "Title for confirmation dialogs"
+  },
+  "confirmGenerateFlashcardsMessage": "Generate flashcards for \"{videoTitle}\"?",
+  "@confirmGenerateFlashcardsMessage": {
+    "description": "Message to confirm flashcard generation",
+    "placeholders": {
+      "videoTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "generateButtonLabel": "Generate",
+  "@generateButtonLabel": {
+    "description": "Label for the generate button"
+  },
+  "gemConsumptionConfirmation": "One gem will be consumed to enable translated subtitles. Are you sure?",
+  "noButton": "No",
+  "yesButton": "Yes",
+  "invalidYouTubeUrl": "Invalid YouTube URL.",
+  "processingComplete": "Processing complete!",
+  "videoPlayerTitle": "Video Player",
+  "videoLoadFailed": "Failed to load video.",
+  "generatingFlashcards": "Generating flashcards...",
+  "captionLoadFailed": "Failed to load captions.",
+  "translating": "Translating...",
+  "waitingForTranslation": "Waiting for translation...",
+  "showTranslatedSubtitles": "Show Translated Subtitles",
+  "noVideoInfoOrCaptions": "No video information or captions available.",
+  "videoTitleUnknown": "Video title unknown",
+  "failedToGetVideoTitle": "Failed to get video title. Please try again.",
+  "startingFlashcardGenerationWithIdAndTitle": "Starting flashcard generation. Video ID: {videoId}, Title: {title}",
+  "@startingFlashcardGenerationWithIdAndTitle": {
+    "placeholders": {
+      "videoId": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "missingInfoForFlashcardGeneration": "Missing information for flashcard generation. (videoId: {videoId}, captions_empty: {captionsEmpty}, title: {title})",
+  "@missingInfoForFlashcardGeneration": {
+    "placeholders": {
+      "videoId": {
+        "type": "String"
+      },
+      "captionsEmpty": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "missingInfoReloadVideo": "Missing information to generate cards. Please reload the video or try again later.",
+  "generateFlashcardsFromThisVideoButton": "Generate Flashcards from This Video",
+  "originalTextWithLanguage": "Original ({language}):",
+  "@originalTextWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "translationWithLanguage": "Translation ({language}):",
+  "@translationWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "selectConversationsToLearn": "Select conversations to learn ({selectedCount}/{totalCount})",
+  "@selectConversationsToLearn": {
+    "placeholders": {
+      "selectedCount": {
+        "type": "int"
+      },
+      "totalCount": {
+        "type": "int"
+      }
+    }
+  },
+  "selectAll": "Select All",
+  "deselectAll": "Deselect All",
+  "preview": "Preview",
+  "aiGenerationNote": "Note: Due to AI generation, both languages may occasionally be the same. In that case, please try another video.",
+  "saveSelectedCardsTooltip": "Save Selected Cards",
+  "confirmTitle": "Confirm",
+  "confirmCancelWithoutSavingMessage": "Cancel without saving cards?",
+  "cardsSavedSuccessfullySnackbar": "{count,plural, =1{1 card saved!}other{{count} cards saved!}}",
+  "@cardsSavedSuccessfullySnackbar": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cardSaveErrorSnackbar": "Error saving cards: {error}",
+  "@cardSaveErrorSnackbar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationPermissionRequired": "Notification permission is required. Please enable notifications from the app settings.",
+  "learningTimeNotificationTitle": "It's learning time!",
+  "learningTimeNotificationBody": "Let's learn new words with Swipelingo today 🚀",
+  "dailyLearningReminderChannelName": "Daily Learning Reminder",
+  "dailyLearningReminderChannelDescription": "A reminder to encourage daily learning.",
+  "reminderSettingsTitle": "Reminder Settings",
+  "maximizeLearningEffectTitle": "Maximize your learning effectiveness with daily study!",
+  "maximizeLearningEffectBody": "Swipelingo encourages review at the optimal timing based on the forgetting curve. Set a reminder to build a study habit.",
+  "whenToRemind": "When would you like to be reminded?",
+  "reminderSetSuccess": "Reminder set for {time}!",
+  "@reminderSetSuccess": {
+    "description": "Message shown when a reminder is successfully set, includes the time.",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "09:00"
+      }
+    }
+  },
+  "setReminderButton": "Set Reminder",
+  "setReminderLaterButton": "Set Later"
+,
+  "videoFlashcardsTitle": "Video Flashcards",
+  "deleteCurrentVideoCardTooltip": "Delete current card",
+  "deleteVideoCardDialogTitle": "Delete Card",
+  "deleteVideoCardDialogContent": "Delete \"{cardFront}\"? This action cannot be undone.",
+  "@deleteVideoCardDialogContent": {
+    "placeholders": {
+      "cardFront": {
+        "type": "String"
+      }
+    }
+  },
+  "videoFlashcardCancelButtonLabel": "Cancel",
+  "videoFlashcardDeleteButtonLabel": "Delete",
+  "videoCardDeletedSuccessfullySnackbar": "Card deleted successfully.",
+  "videoCardDeletionFailedSnackbar": "Failed to delete card: {error}",
+  "@videoCardDeletionFailedSnackbar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCardsFoundForThisVideo": "No cards found for this video.",
+  "backToVideoListButtonLabel": "Back to Video List",
+  "deleteButton": "Delete",
+  "wordMeaningPopupTitle": "Word Meaning",
+  "closeButton": "Close",
+  "captionTapGuide": "Tap a word in the subtitles to see its meaning.",
+  "@captionTapGuide": {
+    "description": "Guidance message displayed when the user first opens the video player, explaining that they can tap words in the subtitles."
+  },
+  "createCardFromSubtitleButton": "Create Card from Subtitle",
+  "failedToGetVideoId": "Failed to get video ID.",
+  "noCaptionSelected": "No caption selected.",
+  "defaultCardBackText": "Enter translation or notes here",
+  "userNotAuthenticated": "User not authenticated.",
+  "cardCreatedSuccessfully": "Card created successfully!",
+  "failedToCreateCard": "Failed to create card.",
+  "createCardConfirmationTitle": "Confirm Card Creation",
+  "createCardConfirmationMessage": "Do you want to create a card with the following content?",
+  "createButton": "Create",
+  "cancelButtonDialog": "Cancel",
+  "translatingText": "Translating...",
+  "translationFailedFallbackText": "Translation failed. Please edit manually later.",
+  "createCardFromSubtitleButton": "Create Card from Subtitle",
+  "failedToGetVideoId": "Failed to get video ID.",
+  "noCaptionSelected": "No caption selected.",
+  "defaultCardBackText": "Enter translation or notes here",
+  "userNotAuthenticated": "User not authenticated.",
+  "cardCreatedSuccessfully": "Card created successfully!",
+  "failedToCreateCard": "Failed to create card.",
+  "createCardConfirmationTitle": "Confirm Card Creation",
+  "createCardConfirmationMessage": "Do you want to create a card with the following content?",
+  "createButton": "Create",
+  "cancelButtonDialog": "Cancel",
+  "translatingText": "Translating...",
+  "relatedVideosTitle": "Related Videos",
+  "@relatedVideosTitle": {
+    "description": "Title for the related videos section"
+  },
+  "noRelatedVideos": "No related videos found.",
+  "@noRelatedVideos": {
+    "description": "Message displayed when no related videos are found."
+  },
+  "failedToLoadRelatedVideos": "Failed to load related videos.",
+  "@failedToLoadRelatedVideos": {
+    "description": "Message displayed when loading related videos fails."
+  },
+  "learningTab": "Learn",
+  "videoTab": "Watch",
+  "otherVideosInThisChannel": "Other videos in this channel",
+  "@otherVideosInThisChannel": {
+    "description": "Button text to show other videos from the same channel"
+  },
+  "addToFavorites": "Add to Favorites",
+  "removeFromFavorites": "Remove from Favorites",
+  "favoriteChannelsScreenTitle": "Favorite Channels",
+  "noFavoriteChannelsYet": "No favorite channels yet.",
+  "watchHistoryScreenTitle": "Watch History",
+  "noWatchHistoryFound": "No watch history found.",
+  "reviewRequestTitle": "How are you enjoying Swipelingo?",
+  "reviewRequestMessage": "Would you mind rating our app? Your feedback helps us improve.",
+  "rateNow": "Rate Now",
+  "remindLater": "Remind Me Later",
+  "noThanks": "No Thanks",
+  "loadingChannel": "Loading channel...",
+  "errorLoadingChannel": "Error loading channel: {channelId}",
+  "@errorLoadingChannel": {
+    "placeholders": {
+      "channelId": {
+        "type": "String"
+      }
+    }
+  },
+  "channelNotFound": "Channel not found: {channelId}",
+  "@channelNotFound": {
+    "placeholders": {
+      "channelId": {
+        "type": "String"
+      }
+    }
+  }
+,
+  "noRecommendedVideosFound": "No recommended videos found at the moment. Please check back later!",
+  "noVideosInChannel": "There are no videos in this channel yet.",
+  "languageSelectionScreenTitle": "Select Learning Languages",
+  "selectYourNativeLanguage": "Select your native language:",
+  "selectLanguageToLearn": "Select the language you want to learn:",
+  "selectNativeLanguageHint": "Select Native Language",
+  "selectLanguageToLearnHint": "Select Language to Learn",
+  "confirmAndStartButton": "Confirm and Start",
+  "pleaseSelectLanguages": "Please select both languages.",
+  "nativeAndTargetMustBeDifferent": "Native and target languages must be different.",
+  "settingsSavedSuccessfully": "Settings saved successfully.",
+  "languageSettingsSectionTitle": "Language Settings",
+  "saveSettingsButton": "Save Settings",
+  "pleaseSelectBothLanguages": "Please select both your native and target languages.",
+  "errorSavingSettings": "Error saving settings: {error}",
+  "@errorSavingSettings": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorMessageAnErrorOccurred": "An error occurred. Please try again.",
+  "enterVideoUrlWithJapaneseSubtitles": "Enter the URL of a video with Japanese subtitles",
+  "searchVideosOnYouTubeWithJapaneseSubtitles": "Search Videos with Japanese Subtitles (YouTube)",
+  "exampleSearchQueryJapanese": "e.g., \"Japanese conversation practice\"",
+  "languageNameEnglish": "English",
+  "languageNameJapanese": "Japanese",
+  "wordLabelWithLanguage": "Word ({language})",
+  "@wordLabelWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "meaningLabelWithLanguage": "Meaning ({language})",
+  "@meaningLabelWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "frontLabel": "Front ({languageCode})",
+  "@frontLabel": {
+    "placeholders": {
+      "languageCode": {
+        "type": "String"
+      }
+    }
+  },
+  "backLabel": "Back ({languageCode})",
+  "@backLabel": {
+    "placeholders": {
+      "languageCode": {
+        "type": "String"
+      }
+    }
+  },
+  "translationWillBeGenerated": "Translation will be generated",
+  "screenshotLabel": "Screenshot",
+  "noScreenshotAvailable": "No screenshot available",
+  "cardDetailsTitle": "Card Details",
+  "cardFrontLabel": "Front",
+  "cardBackLabel": "Back",
+  "cardScreenshotLabel": "Screenshot",
+  "watchVideoSegmentButton": "Watch in Video",
+  "closeButtonLabel": "Close",
+  "followUs": "Follow Us",
+  "shareButton": "Share",
+  "shareInvitationMessage": "Learn Japanese with YouTube! My invitation code: {invitationCode} {downloadPrompt} {storeUrl} #Swipelingo",
+  "@shareInvitationMessage": {
+    "placeholders": {
+      "invitationCode": {
+        "type": "String"
+      },
+      "downloadPrompt": {
+        "type": "String"
+      },
+      "storeUrl": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadAppPrompt": "Download here:",
+  "translationFailed": "Translation failed. Searching with original text.",
+  "searchWithTranslation": "Search with translation",
+  "@searchWithTranslation": {
+    "description": "Label for the toggle switch to enable/disable search with translation"
+  },
+  "aiExplainButton": "AI Explanation",
+  "aiExplanationModalTitle": "AI Explanation for \"{word}\"",
+  "@aiExplanationModalTitle": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "aiExplanationError": "Failed to get AI explanation. Please try again later.",
+  "playerSettings": "Player Settings",
+  "forceTranslatedCaptionsTitle": "Show forcibly translated captions",
+  "forceTranslatedCaptionsDescription": "Enabling this option will result in less natural translations, but it will display a 1:1 translation of the currently displayed subtitles, making it easier to understand the content of the displayed subtitles. Enable this when the update timing of the two subtitles is unnatural.",
+  "notificationPermissionPermanentlyDenied": "Notification permission was permanently denied. Please enable it in settings.",
+  "openSettings": "Open Settings",
+  "showRubyText": "Show Ruby Text",
+  "@showRubyText": {
+    "description": "Title for the ruby text display toggle switch in player settings"
+  },
+  "showRubyTextDescription": "Displays furigana (reading hints) above kanji characters",
+  "@showRubyTextDescription": {
+    "description": "Description for the ruby text display toggle switch in player settings"
+  },
+  "updateRequiredTitle": "Update Required",
+  "@updateRequiredTitle": {
+    "description": "Title for forced update dialog"
+  },
+  "updateRequiredMessage": "A new version has been released. You need to update to the latest version to continue using the app.",
+  "@updateRequiredMessage": {
+    "description": "Message for forced update dialog"
+  },
+  "updateNowButton": "Update Now",
+  "@updateNowButton": {
+    "description": "Button text for updating now"
+  },
+  "updateAvailableTitle": "Update Available",
+  "@updateAvailableTitle": {
+    "description": "Title for optional update dialog"
+  },
+  "updateAvailableMessage": "A new version of Swipelingo is available. We recommend updating to the latest version to experience new features and improvements.",
+  "@updateAvailableMessage": {
+    "description": "Message for optional update dialog"
+  },
+  "updateButton": "Update",
+  "@updateButton": {
+    "description": "Button text for updating"
+  },
+  "updateLaterButton": "Later",
+  "@updateLaterButton": {
+    "description": "Button text for updating later"
+  },
+  "videoLearning": "Video Learning",
+  "quickActions": "Quick Actions",
+  "youtubeUrlInput": "YouTube URL Input",
+  "videoSearch": "Video Search",
+  "recommendedVideos": "Recommended Videos",
+  "watchHistory": "Watch History",
+  "savedCards": "Saved Cards",
+  "loadingCards": "Loading cards...",
+  "errorOccurredGeneric": "An error occurred",
+  "welcomeBack": "Welcome back!",
+  "letsLearnTogether": "Let's learn together today",
+  "learningMenu": "Learning Menu",
+  "learningStatistics": "Learning Statistics",
+  "consecutiveLearningRecord": "Consecutive learning record",
+  "loadingData": "Loading...",
+  "errorOccurredWithMessage": "An error occurred",
+  "channelErrorMessage": "Failed to load channel information",
+  "youtubeChannel": "YouTube Channel",
+  "addFavoriteChannelsMessage": "Add your favorite YouTube channels to learn efficiently!",
+  "noVideosInChannelMessage": "There are no videos in this channel",
+  "pleaseWaitForNewVideos": "Please wait for new videos to be added",
+  "videosCount": "{count} videos",
+  "@videosCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoriteChannelVideosList": "Favorite channel videos",
+  "favoriteChannels": "Favorite\nChannels",
+  "cardList": "Card\nList",
+  "watchHistoryShort": "Watch\nHistory",
+  "videoLearningSubtitle": "Let's learn with YouTube videos!",
+  "tapToSeeAnswer": "Tap to see answer",
+  "@tapToSeeAnswer": {
+    "description": "Instruction shown on flashcard front side"
+  },
+  "swipeToRate": "Swipe to rate",
+  "@swipeToRate": {
+    "description": "Instruction shown on flashcard back side"
+  },
+  "correctButton": "Correct",
+  "@correctButton": {
+    "description": "Label for correct answer button"
+  },
+  "incorrectButton": "Incorrect",
+  "@incorrectButton": {
+    "description": "Label for incorrect answer button"
+  },
+  "voiceButton": "Voice",
+  "@voiceButton": {
+    "description": "Label for text-to-speech button"
+  },
+  "notificationSettings": "Notification Settings",
+  "@notificationSettings": {
+    "description": "Title for notification settings screen"
+  },
+  "enableNotifications": "Enable Notifications",
+  "@enableNotifications": {
+    "description": "Label for enabling notifications"
+  },
+  "notificationDescription": "Get reminders to keep your learning streak going",
+  "@notificationDescription": {
+    "description": "Description for notification settings"
+  },
+  "notificationTime": "Notification Time",
+  "@notificationTime": {
+    "description": "Label for notification time section"
+  },
+  "notificationTypes": "Notification Types",
+  "@notificationTypes": {
+    "description": "Label for notification types section"
+  },
+  "dailyReminder": "Daily Reminder",
+  "@dailyReminder": {
+    "description": "Label for daily reminder option"
+  },
+  "dailyReminderDescription": "Get a daily reminder to study",
+  "@dailyReminderDescription": {
+    "description": "Description for daily reminder"
+  },
+  "reviewReminder": "Review Reminder",
+  "@reviewReminder": {
+    "description": "Label for review reminder option"
+  },
+  "reviewReminderDescription": "Notify when cards are due for review",
+  "@reviewReminderDescription": {
+    "description": "Description for review reminder"
+  },
+  "milestoneNotification": "Milestone Achievements",
+  "@milestoneNotification": {
+    "description": "Label for milestone notification option"
+  },
+  "milestoneDescription": "Celebrate your learning milestones",
+  "@milestoneDescription": {
+    "description": "Description for milestone notifications"
+  },
+  "newContentNotification": "New Content",
+  "@newContentNotification": {
+    "description": "Label for new content notification option"
+  },
+  "newContentDescription": "Get notified about new recommended videos",
+  "@newContentDescription": {
+    "description": "Description for new content notifications"
+  },
+  "sendTestNotification": "Send Test Notification",
+  "@sendTestNotification": {
+    "description": "Label for test notification button"
+  },
+  "testNotificationSent": "Test notification sent!",
+  "@testNotificationSent": {
+    "description": "Message shown when test notification is sent"
+  },
+  "notificationPermissionDenied": "Notification permission denied. Please enable it in settings.",
+  "@notificationPermissionDenied": {
+    "description": "Error message when notification permission is denied"
+  },
+  "favoritesPlaylist": "Favorites",
+  "@favoritesPlaylist": {
+    "description": "Name for favorites playlist"
+  },
+  "watchLaterPlaylist": "Watch Later",
+  "@watchLaterPlaylist": {
+    "description": "Name for watch later playlist"
+  }
+}

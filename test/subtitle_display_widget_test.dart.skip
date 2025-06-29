@@ -1,0 +1,209 @@
+import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:mockito/mockito.dart';
+import 'package:mockito/annotations.dart';
+import 'package:swipelingo/ui/widgets/subtitle_display_widget.dart';
+import 'package:swipelingo/providers/video_player_provider.dart';
+import 'package:swipelingo/providers/home_providers.dart';
+import 'package:swipelingo/providers/ruby_text_provider.dart';
+import 'package:swipelingo/providers/budoux_provider.dart';
+import 'package:swipelingo/models/user_model.dart';
+import 'package:swipelingo/l10n/app_localizations.dart';
+import 'package:tiny_segmenter_dart/tiny_segmenter_dart.dart';
+import 'test_setup.dart';
+
+// モック生成のアノテーション
+@GenerateNiceMocks([MockSpec<TinySegmenter>(), MockSpec<VideoPlayerNotifier>()])
+import 'subtitle_display_widget_test.mocks.dart';
+
+// テスト用のシンプルなRubyTextSettingNotifier
+class TestRubyTextSettingNotifier extends RubyTextSettingNotifier {
+  final bool _value;
+
+  TestRubyTextSettingNotifier(this._value);
+
+  @override
+  Future<bool> build() async {
+    return _value;
+  }
+}
+
+void main() {
+  group('SubtitleDisplayWidget', () {
+    late MockTinySegmenter mockTinySegmenter;
+    late MockVideoPlayerNotifier mockVideoPlayerNotifier;
+
+    setUpAll(() async {
+      // Firebase Mock設定
+      try {
+        await initializeMockFirebase();
+      } catch (e) {
+        // Firebase初期化のエラーを無視
+        print('Firebase initialization skipped: $e');
+      }
+    });
+
+    setUp(() {
+      mockTinySegmenter = MockTinySegmenter();
+      mockVideoPlayerNotifier = MockVideoPlayerNotifier();
+      
+      // デフォルトの動作を設定
+      when(mockTinySegmenter.segment(any)).thenReturn(['テスト', '文字列']);
+    });
+
+    Widget createWidget({
+      required String captionText,
+      required bool isTranslated,
+      String videoUrl = 'test_url',
+      UserModel? userModel,
+      bool? rubyTextSetting,
+    }) {
+      final container = ProviderContainer(
+        overrides: [
+          // ユーザープロバイダーのオーバーライド
+          userProvider.overrideWith(
+            (ref) => Stream.value(userModel ?? UserModel(
+              uid: 'test_uid',
+              createdAt: DateTime.now(),
+              invitationCode: 'test_code',
+              targetLanguageCode: 'ja',
+            )),
+          ),
+          // ルビテキスト設定のオーバーライド
+          rubyTextSettingProvider.overrideWith(
+            () => TestRubyTextSettingNotifier(rubyTextSetting ?? false),
+          ),
+          // TinySegmenterのオーバーライド
+          tinySegmenterProvider.overrideWith(
+            (ref) => mockTinySegmenter,
+          ),
+          // VideoPlayerのオーバーライドは複雑なため省略し、基本的な機能のみテスト
+        ],
+      );
+
+      return UncontrolledProviderScope(
+        container: container,
+        child: NeumorphicApp(
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
+          home: Scaffold(
+            body: SubtitleDisplayWidget(
+              captionText: captionText,
+              isTranslated: isTranslated,
+              videoUrl: videoUrl,
+            ),
+          ),
+        ),
+      );
+    }
+
+    testWidgets('空のキャプションテキストの場合、何も表示しない', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(
+        captionText: '',
+        isTranslated: false,
+      ));
+
+      await tester.pumpAndSettle();
+
+      // SizedBoxが表示されることを確認
+      expect(find.byType(SizedBox), findsWidgets);
+    });
+
+    testWidgets('日本語テキストを形態素解析して表示する', (WidgetTester tester) async {
+      when(mockTinySegmenter.segment('こんにちは世界'))
+          .thenReturn(['こんにちは', '世界']);
+
+      await tester.pumpWidget(createWidget(
+        captionText: 'こんにちは世界',
+        isTranslated: false,
+        userModel: UserModel(
+          uid: 'test_uid',
+          createdAt: DateTime.now(),
+          invitationCode: 'test_code',
+          targetLanguageCode: 'ja',
+        ),
+      ));
+
+      await tester.pumpAndSettle();
+
+      // 形態素解析が呼ばれることを確認
+      verify(mockTinySegmenter.segment('こんにちは世界')).called(1);
+    });
+
+    testWidgets('翻訳中の表示でローディングインジケーターを表示', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(
+        captionText: 'Translating...',
+        isTranslated: true,
+      ));
+
+      await tester.pumpAndSettle();
+
+      expect(find.byType(CircularProgressIndicator), findsOneWidget);
+    });
+
+    testWidgets('日本語でない場合はスペース区切りで表示', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(
+        captionText: 'English sentence',
+        isTranslated: false,
+        userModel: UserModel(
+          uid: 'test_uid',
+          createdAt: DateTime.now(),
+          invitationCode: 'test_code',
+          targetLanguageCode: 'en',
+        ),
+      ));
+
+      await tester.pumpAndSettle();
+
+      // TinySegmenterが呼ばれないことを確認
+      verifyNever(mockTinySegmenter.segment(any));
+    });
+
+    testWidgets('Wrapウィジェットが使用されている', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(
+        captionText: 'Test text',
+        isTranslated: false,
+      ));
+
+      await tester.pumpAndSettle();
+
+      expect(find.byType(Wrap), findsWidgets);
+    });
+
+    testWidgets('テキストが表示される', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(
+        captionText: 'Test content',
+        isTranslated: false,
+        userModel: UserModel(
+          uid: 'test_uid',
+          createdAt: DateTime.now(),
+          invitationCode: 'test_code',
+          targetLanguageCode: 'en',
+        ),
+      ));
+
+      await tester.pumpAndSettle();
+
+      expect(find.text('Test'), findsOneWidget);
+      expect(find.text('content'), findsOneWidget);
+    });
+
+    testWidgets('GestureDetectorが存在する', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(
+        captionText: 'Tappable text',
+        isTranslated: false,
+        userModel: UserModel(
+          uid: 'test_uid',
+          createdAt: DateTime.now(),
+          invitationCode: 'test_code',
+          targetLanguageCode: 'en',
+        ),
+      ));
+
+      await tester.pumpAndSettle();
+
+      expect(find.byType(GestureDetector), findsWidgets);
+    });
+  });
+}

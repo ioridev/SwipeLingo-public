@@ -1,0 +1,5 @@
+/* Privacy - User Tracking Usage Description */
+"NSUserTrackingUsageDescription" = "We would appreciate it if you allow tracking to display more personalized ads. Thank you for your cooperation.";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "To upload photos, please allow permission to access your photo library.";

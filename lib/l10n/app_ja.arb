@@ -1,0 +1,827 @@
+{
+  "@@locale": "ja",
+  "getMore": "獲得",
+  "learningMenu": "学習メニュー",
+  "startLearning": "学習開始",
+  "dueCardsWaitingForReview": "{count} 件のカードが復習待ち",
+  "@dueCardsWaitingForReview": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noScheduledCardsRandomMode": "復習予定のカードがないため、ランダムに出題します。",
+  "countRetrievalError": "件数取得エラー",
+  "createCardsFromVideo": "動画からカードを生成",
+  "learnNewWordsFromYouTube": "YouTubeから新しい単語を学ぼう",
+  "cardDeckList": "カードデッキ一覧",
+  "checkSavedVideoCards": "保存された動画カードを確認",
+  "learningStats": "学習の統計",
+  "learningStreakDays": "{count} 日連続学習中",
+  "@learningStreakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityLast105Days": "過去105日間のアクティビティ",
+  "activityRetrievalError": "アクティビティ取得エラー",
+  "totalCardsLearned": "総学習カード数: {count}",
+  "@totalCardsLearned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cardCountRetrievalError": "カード数取得エラー",
+  "upgradeToSwipelingoPro": "Swipelingo Proにアップグレード",
+  "unlimitedGemsNoAdsAccessAllFeatures": "無制限のジェム、広告なし、すべての機能にアクセス",
+  "review": "復習",
+  "helloWorld": "こんにちは世界！",
+  "couldNotLaunchUrl": "URLを開けませんでした: {urlString}",
+  "@couldNotLaunchUrl": {
+    "placeholders": {
+      "urlString": {
+        "type": "String"
+      }
+    }
+  },
+  "swipelingoPro": "Swipelingo Pro",
+  "noOfferingsAvailable": "現在利用可能なオファリングがありません。ストアの設定を確認するか、時間をおいて再度お試しください。",
+  "noPackagesAvailableInOffering": "現在利用可能な購入プランがありません。\\n(オファリング 「{offeringIdentifier}」 にはプランが含まれていませんでした)",
+  "@noPackagesAvailableInOffering": {
+    "placeholders": {
+      "offeringIdentifier": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumFeatures": "プレミアム特典",
+  "unlimitedGems": "無制限のジェム",
+  "unlimitedTranslationSubtitles": "翻訳字幕の表示回数制限なし",
+  "adsFree": "広告非表示",
+  "concentrateOnLearning": "学習に集中できる環境",
+  "unlimitedCardCreation": "無制限のカード生成",
+  "learnAsMuchAsYouWantDaily": "毎日好きなだけ学習を進められます",
+  "premiumSupport": "プレミアムサポート",
+  "prioritySupport": "優先的なサポートを受けられます",
+  "selectBestPlanForYou": "あなたに最適なプランを選択",
+  "purchaseTermsDescription": "購入はApple IDアカウントに請求されます。現在の期間が終了する少なくとも24時間前に自動更新をオフにしない限り、サブスクリプションは自動的に更新されます。アカウント設定でサブスクリプションの管理や自動更新のオフが可能です。\\n\\n",
+  "termsOfUseEULA": "利用規約 (EULA)",
+  "privacyPolicy": "プライバシーポリシー",
+  "restoringPurchases": "購入情報を復元しています...",
+  "purchasesRestored": "購入情報が復元されました。",
+  "restorePurchasesFailed": "購入情報の復元に失敗しました: {error}",
+  "@restorePurchasesFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "restorePurchasesButton": "購入を復元する",
+  "loadingPlans": "プラン情報を読み込み中...",
+  "failedToLoadPlans": "プランの読み込みに失敗しました。",
+  "errorCode": "エラーコード: {errorCode}",
+  "@errorCode": {
+    "placeholders": {
+      "errorCode": {
+        "type": "String"
+      }
+    }
+  },
+  "details": "詳細: {details}",
+  "@details": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "retry": "再試行",
+  "weeklyPlan": "週間プラン",
+  "daysFreeTrial": "3日間の無料体験付き",
+  "monthlyPlan": "月間プラン",
+  "annualPlan": "年間プラン",
+  "discountFromMonthly": "月額より{discountPercentage}%オフ",
+  "@discountFromMonthly": {
+    "placeholders": {
+      "discountPercentage": {
+        "type": "String"
+      }
+    }
+  },
+  "recommended": "おすすめ",
+  "perWeek": "週あたり",
+  "perMonth": "月あたり",
+  "startNow": "今すぐ始める",
+  "selectButton": "選択する",
+  "startingPurchaseProcess": "購入処理を開始します...",
+  "purchaseCompletedThankYou": "購入が完了しました！ありがとうございます。",
+  "purchaseCompletedPlanNotActive": "購入は完了しましたが、プランが有効になりませんでした。サポートにお問い合わせください。",
+  "purchaseCancelled": "購入がキャンセルされました。",
+  "purchasePending": "購入処理が保留中です。ストアからの承認をお待ちください。",
+  "purchaseFailed": "購入に失敗しました: {errorMessage}",
+  "@purchaseFailed": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "unexpectedErrorOccurred": "予期せぬエラーが発生しました: {error}",
+  "@unexpectedErrorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "設定",
+  "yourInvitationCode": "あなたの招待コード",
+  "copyButton": "コピー",
+  "invitationCodeCopied": "招待コードをコピーしました",
+  "invitationCodeAlreadyUsed": "招待コードは既に使用済みです",
+  "enterInvitationCode": "招待コードを入力",
+  "invitationCodeHint": "招待コード",
+  "applyButton": "適用する",
+  "errorDialogMessage": "エラー: {err}",
+  "@errorDialogMessage": {
+    "placeholders": {
+      "err": {
+        "type": "String"
+      }
+    }
+  },
+  "rateTheApp": "アプリを評価",
+  "reportBugsOrRequests": "不具合・要望を報告",
+  "manageCards": "カード管理",
+  "premiumPlan": "プレミアムプラン",
+  "ankiExportCsv": "Ankiエクスポート (.csv)",
+"settingsReminderSettings": "リマインダー設定",
+  "pleaseRateTheApp": "アプリを評価してください",
+  "cancelButton": "キャンセル",
+  "submitButton": "送信",
+  "reviewFeatureNotAvailable": "レビュー機能を利用できません。",
+  "premiumFeatureOnly": "この機能はプレミアムプランのユーザーのみ利用可能です。",
+  "startingAnkiExport": "Ankiエクスポート処理を開始します...",
+  "loginRequiredForExport": "エクスポートにはログインが必要です。",
+  "noCardsToExport": "エクスポートするカードがありません。",
+  "ankiExportRequested": "Ankiファイルのエクスポートが要求されました。共有メニューからAnkiアプリを選択してください。",
+  "ankiExportFailed": "Ankiファイルのエクスポートに失敗しました。",
+  "errorDuringAnkiExport": "Ankiエクスポート中にエラーが発生しました: {e}",
+  "@errorDuringAnkiExport": {
+    "placeholders": {
+      "e": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreCancelled": "復元処理がキャンセルされました。",
+  "networkErrorPleaseCheckConnection": "ネットワークエラーが発生しました。接続を確認してください。",
+  "storeCommunicationError": "ストアとの通信に問題が発生しました。時間をおいて再度お試しください。",
+  "userAuthenticationRequired": "ユーザー認証が必要です。",
+  "pleaseEnterInvitationCode": "招待コードを入力してください。",
+  "selectVideo": "動画選択",
+  "enterVideoUrlWithEnglishSubtitles": "英語字幕がある動画のURLを入力",
+  "youtubeVideoUrl": "YouTube動画のURL",
+  "pasteFromClipboard": "クリップボードから貼り付け",
+  "recommendedVideos": "おすすめ動画",
+  "searchVideosOnYouTube": "動画を検索 (YouTube)",
+  "generating": "生成中...",
+  "generateFlashcards": "フラッシュカードを生成",
+  "watchVideo": "動画を見る",
+  "generatingCards": "カード生成中...",
+  "processingCardCount": "処理中のカード: {count}",
+  "@processingCardCount": {
+    "description": "処理中のカードの数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exampleSearchQuery": "例: \"English conversation practice\"",
+  "searchResultsCount": "検索結果 ({count}件)",
+  "@searchResultsCount": {
+    "description": "検索結果の数",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fetchingVideoInfoCaptions": "動画情報と英語字幕を取得中...",
+  "requestingCardGenerationJa": "LLMにカード生成をリクエスト中 (JA)...",
+  "processingGeneratedCards": "生成されたカードを処理中...",
+  "deleteCurrentCardTooltip": "現在のカードを削除",
+  "deleteCardTitle": "カードの削除",
+  "confirmDeleteCardMessage": "「{cardFront}」を削除しますか？この操作は元に戻せません。",
+  "@confirmDeleteCardMessage": {
+    "placeholders": {
+      "cardFront": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteCardConfirmButtonLabel": "削除",
+  "cardDeletedSuccessMessage": "カードを削除しました。",
+  "cardDeletionFailedMessage": "カードの削除に失敗しました: {error}",
+  "@cardDeletionFailedMessage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCardsToReviewMessage": "レビューするカードはありません。",
+  "createCardsFromVideoButtonLabel": "動画からカードを作成",
+  "backToHomeButtonLabel": "ホームに戻る",
+  "rateAppTitle": "アプリを評価",
+  "thankYouForUsingSwipelingo": "Swipelingoをご利用いただきありがとうございます！",
+  "pleaseRateOurApp": "もしよろしければ、アプリの評価にご協力いただけると嬉しいです。皆様からの温かいレビューが、私たちの開発の大きな励みになります！",
+  "howIsYourExperience": "アプリの使い心地はいかがですか？",
+  "writeReviewButton": "レビューを書く",
+  "laterButton": "後で",
+  "learningDecksTitle": "学習デッキ一覧",
+  "noLearningDecks": "学習デッキがありません。",
+  "createDeckFromYouTube": "YouTube動画から新しいデッキを作成しましょう。",
+  "createDeckFromVideoButton": "動画からデッキを作成",
+  "deleteDeckTooltip": "デッキを削除",
+  "deleteDeckDialogTitle": "デッキの削除",
+  "deleteDeckDialogContent": "「{videoTitle}」と関連する全てのカードを削除しますか？この操作は元に戻せません。",
+  "@deleteDeckDialogContent": {
+    "placeholders": {
+      "videoTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deckDeletedSuccessfully": "デッキを削除しました。",
+  "deckDeletionFailed": "デッキの削除に失敗しました: {error}",
+  "@deckDeletionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorOccurred": "エラーが発生しました: {error}",
+  "@errorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retryButton": "再試行",
+  "cardListTitle": "カード管理",
+  "noCardsFound": "カードがありません。",
+  "generateNewCardsFromVideos": "動画から新しいカードを生成しましょう。",
+  "generateFromVideosButton": "動画から生成する",
+  "deleteCardTooltip": "カードを削除",
+  "deleteCardDialogTitle": "カードの削除",
+  "deleteCardDialogContent": "「{cardFront}」を削除しますか？この操作は元に戻せません。",
+  "@deleteCardDialogContent": {
+    "placeholders": {
+      "cardFront": {
+        "type": "String"
+      }
+    }
+  },
+  "cardDeletedSuccess": "カードを削除しました。",
+  "cardDeletionFailed": "カードの削除に失敗しました: {error}",
+  "@cardDeletionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "sessionResults": "セッション結果",
+  "accuracyRate": "正答率: {accuracyPercentage}%",
+  "@accuracyRate": {
+    "placeholders": {
+      "accuracyPercentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "correctIncorrectCount": "正解: {correctCount} / 不正解: {incorrectCount}",
+  "@correctIncorrectCount": {
+    "placeholders": {
+      "correctCount": {
+        "type": "Object"
+      },
+      "incorrectCount": {
+        "type": "Object"
+      }
+    }
+  },
+  "reviewedCards": "レビューしたカード:",
+  "backToHome": "ホームに戻る",
+  "searchResultsTitle": "検索結果: \"{searchQuery}\"",
+  "@searchResultsTitle": {
+    "description": "検索結果画面のタイトル",
+    "placeholders": {
+      "searchQuery": {
+        "type": "String"
+      }
+    }
+  },
+  "errorPrefix": "エラー: {errorMessage}",
+  "@errorPrefix": {
+    "description": "エラーメッセージの接頭辞",
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "noVideosFoundMessage": "英語字幕付きの動画は見つかりませんでした。",
+  "@noVideosFoundMessage": {
+    "description": "動画が見つからなかった場合に表示されるメッセージ"
+  },
+  "playVideoInAppTooltip": "動画をアプリ内で再生",
+  "@playVideoInAppTooltip": {
+    "description": "動画再生ボタンのツールチップ"
+  },
+  "confirmDialogTitle": "確認",
+  "@confirmDialogTitle": {
+    "description": "確認ダイアログのタイトル"
+  },
+  "confirmGenerateFlashcardsMessage": "「{videoTitle}」でフラッシュカードを生成しますか？",
+  "@confirmGenerateFlashcardsMessage": {
+    "description": "フラッシュカード生成の確認メッセージ",
+    "placeholders": {
+      "videoTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "generateButtonLabel": "生成する",
+  "@generateButtonLabel": {
+    "description": "生成ボタンのラベル"
+  },
+  "gemConsumptionConfirmation": "翻訳字幕を有効にするにはジェムが1つ消費されます。よろしいですか？",
+  "noButton": "いいえ",
+  "yesButton": "はい",
+  "invalidYouTubeUrl": "無効なYouTube URLです。",
+  "processingComplete": "処理完了！",
+  "videoPlayerTitle": "動画プレイヤー",
+  "videoLoadFailed": "動画の読み込みに失敗しました。",
+  "generatingFlashcards": "フラッシュカード生成中...",
+  "captionLoadFailed": "字幕の読み込みに失敗しました。",
+  "translating": "翻訳中...",
+  "waitingForTranslation": "翻訳待機中...",
+  "showTranslatedSubtitles": "翻訳字幕を表示する",
+  "noVideoInfoOrCaptions": "動画情報または字幕がありません。",
+  "videoTitleUnknown": "動画タイトル不明",
+  "failedToGetVideoTitle": "動画タイトルを取得できませんでした。再度お試しください。",
+  "startingFlashcardGenerationWithIdAndTitle": "フラッシュカード生成処理を開始します。 Video ID: {videoId}, Title: {title}",
+  "@startingFlashcardGenerationWithIdAndTitle": {
+    "placeholders": {
+      "videoId": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "missingInfoForFlashcardGeneration": "フラッシュカード生成に必要な情報が不足しています。(videoId: {videoId}, captions_empty: {captionsEmpty}, title: {title})",
+  "@missingInfoForFlashcardGeneration": {
+    "placeholders": {
+      "videoId": {
+        "type": "String"
+      },
+      "captionsEmpty": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "missingInfoReloadVideo": "カード生成に必要な情報が不足しています。動画を再読み込みするか、しばらく待ってから再度お試しください。",
+  "generateFlashcardsFromThisVideoButton": "AIでおまかせカード生成",
+  "originalTextWithLanguage": "原文 ({language}):",
+  "@originalTextWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "translationWithLanguage": "翻訳 ({language}):",
+  "@translationWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "selectConversationsToLearn": "覚えたい会話を選択 ({selectedCount}/{totalCount})",
+  "@selectConversationsToLearn": {
+    "placeholders": {
+      "selectedCount": {
+        "type": "int"
+      },
+      "totalCount": {
+        "type": "int"
+      }
+    }
+  },
+  "selectAll": "すべて選択",
+  "deselectAll": "すべて解除",
+  "preview": "プレビュー",
+  "aiGenerationNote": "注: AI生成のため、まれに両方の言語が同じになっている場合があります。その場合は別の動画でお試し下さい。",
+  "saveSelectedCardsTooltip": "選択したカードを保存",
+  "confirmTitle": "確認",
+  "confirmCancelWithoutSavingMessage": "カードを保存せず中止しますか？",
+  "cardsSavedSuccessfullySnackbar": "{count} 枚のカードを保存しました！",
+  "@cardsSavedSuccessfullySnackbar": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cardSaveErrorSnackbar": "カード保存エラー: {error}",
+  "@cardSaveErrorSnackbar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationPermissionRequired": "通知の許可が必要です。アプリ設定から通知を許可してください。",
+  "learningTimeNotificationTitle": "学習の時間です！",
+  "learningTimeNotificationBody": "今日もSwipelingoで新しい単語を覚えましょう🚀",
+  "dailyLearningReminderChannelName": "デイリー学習リマインダー",
+  "dailyLearningReminderChannelDescription": "毎日の学習を促すリマインダーです。",
+  "reminderSettingsTitle": "リマインダー設定",
+  "maximizeLearningEffectTitle": "毎日の学習で効果を最大化しましょう！",
+  "maximizeLearningEffectBody": "Swipelingoは忘却曲線に基づいた最適なタイミングで復習を促します。リマインダーを設定して、学習習慣を身につけましょう。",
+  "whenToRemind": "いつリマインドしますか？",
+  "reminderSetSuccess": "{time}にリマインダーを設定しました！",
+  "@reminderSetSuccess": {
+    "description": "リマインダーが正常に設定されたときに表示されるメッセージ（時刻を含む）",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "09:00"
+      }
+    }
+  },
+  "setReminderButton": "設定する",
+  "setReminderLaterButton": "後で設定する",
+  "videoFlashcardsTitle": "動画フラッシュカード",
+  "deleteCurrentVideoCardTooltip": "現在のカードを削除",
+  "deleteVideoCardDialogTitle": "カードの削除",
+  "deleteVideoCardDialogContent": "「{cardFront}」を削除しますか？この操作は元に戻せません。",
+  "@deleteVideoCardDialogContent": {
+    "placeholders": {
+      "cardFront": {
+        "type": "String"
+      }
+    }
+  },
+  "videoFlashcardCancelButtonLabel": "キャンセル",
+  "videoFlashcardDeleteButtonLabel": "削除",
+  "videoCardDeletedSuccessfullySnackbar": "カードを削除しました。",
+  "videoCardDeletionFailedSnackbar": "カードの削除に失敗しました: {error}",
+  "@videoCardDeletionFailedSnackbar": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCardsFoundForThisVideo": "この動画のカードが見つかりません。",
+  "backToVideoListButtonLabel": "動画一覧に戻る",
+  "deleteButton": "削除",
+  "wordMeaningPopupTitle": "単語の意味",
+  "closeButton": "閉じる",
+  "captionTapGuide": "字幕の単語をタップすると意味が表示されます。",
+  "@captionTapGuide": {
+    "description": "動画プレイヤーを初めて開いた際に表示される、字幕の単語をタップできることを説明するガイドメッセージ。"
+  },
+  "createCardFromSubtitleButton": "字幕からカード作成",
+  "failedToGetVideoId": "動画IDの取得に失敗しました。",
+  "noCaptionSelected": "字幕が選択されていません。",
+  "defaultCardBackText": "ここに翻訳やメモを入力",
+  "userNotAuthenticated": "ユーザーが認証されていません。",
+  "cardCreatedSuccessfully": "カードを作成しました！",
+  "failedToCreateCard": "カードの作成に失敗しました。",
+  "createCardConfirmationTitle": "カード作成確認",
+  "createCardConfirmationMessage": "以下の内容でカードを作成しますか？",
+  "createButton": "作成",
+  "cancelButtonDialog": "キャンセル",
+  "translatingText": "翻訳中...",
+  "translationFailedFallbackText": "翻訳に失敗しました。後ほど手動で編集してください。",
+  
+  "relatedVideosTitle": "関連動画",
+  "@relatedVideosTitle": {
+    "description": "関連動画セクションのタイトル"
+  },
+  "noRelatedVideos": "関連動画は見つかりませんでした。",
+  "@noRelatedVideos": {
+    "description": "関連動画が見つからなかった場合に表示されるメッセージ。"
+  },
+  "failedToLoadRelatedVideos": "関連動画の読み込みに失敗しました。",
+  "@failedToLoadRelatedVideos": {
+    "description": "関連動画の読み込みに失敗した場合に表示されるメッセージ。"
+  },
+  "learningTab": "学習",
+  "videoTab": "動画",
+  "otherVideosInThisChannel": "このチャンネルの他の動画",
+  "@otherVideosInThisChannel": {
+    "description": "同じチャンネルの他の動画を表示するボタンのテキスト"
+  },
+  "addToFavorites": "お気に入りに追加",
+  "removeFromFavorites": "お気に入りから削除",
+  "favoriteChannelsScreenTitle": "お気に入りチャンネル",
+  "noFavoriteChannelsYet": "お気に入りチャンネルはまだありません。",
+  "watchHistoryScreenTitle": "視聴履歴",
+  "noWatchHistoryFound": "視聴履歴がありません。",
+  "reviewRequestTitle": "Swipelingoはいかがですか？",
+  "reviewRequestMessage": "アプリの評価をお願いします。あなたのフィードバックが改善に役立ちます。",
+  "rateNow": "今すぐ評価",
+  "remindLater": "後で通知",
+  "noThanks": "いいえ",
+  "loadingChannel": "チャンネル情報を読み込み中...",
+  "errorLoadingChannel": "チャンネル情報の読み込みエラー: {channelId}",
+  "@errorLoadingChannel": {
+    "placeholders": {
+      "channelId": {
+        "type": "String"
+      }
+    }
+  },
+  "channelNotFound": "チャンネルが見つかりません: {channelId}",
+  "@channelNotFound": {
+    "placeholders": {
+      "channelId": {
+        "type": "String"
+      }
+    }
+  }
+,
+  "noRecommendedVideosFound": "現在おすすめの動画はありません。時間をおいて再度ご確認ください。",
+  "noVideosInChannel": "このチャンネルにはまだ動画がありません。",
+  "languageSelectionScreenTitle": "学習言語の選択",
+  "selectYourNativeLanguage": "あなたの母語を選択してください:",
+  "selectLanguageToLearn": "学習したい言語を選択してください:",
+  "selectNativeLanguageHint": "母語を選択",
+  "selectLanguageToLearnHint": "学習言語を選択",
+  "confirmAndStartButton": "決定して開始",
+  "pleaseSelectLanguages": "両方の言語を選択してください。",
+  "nativeAndTargetMustBeDifferent": "母語と学習言語は異なるものを選択してください。",
+  "settingsSavedSuccessfully": "設定を保存しました。",
+  "languageSettingsSectionTitle": "言語設定",
+  "saveSettingsButton": "設定を保存",
+  "pleaseSelectBothLanguages": "母語と学習言語の両方を選択してください。",
+  "errorSavingSettings": "設定の保存中にエラーが発生しました: {error}",
+  "@errorSavingSettings": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorMessageAnErrorOccurred": "エラーが発生しました。もう一度お試しください。",
+  "enterVideoUrlWithJapaneseSubtitles": "日本語字幕がある動画のURLを入力",
+  "searchVideosOnYouTubeWithJapaneseSubtitles": "日本語字幕で動画を検索 (YouTube)",
+  "exampleSearchQueryJapanese": "例: \"日本語会話練習\"",
+  "languageNameEnglish": "英語",
+  "languageNameJapanese": "日本語",
+  "wordLabelWithLanguage": "単語 ({language})",
+  "@wordLabelWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "meaningLabelWithLanguage": "意味 ({language})",
+  "@meaningLabelWithLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "frontLabel": "表面 ({languageCode})",
+  "@frontLabel": {
+    "placeholders": {
+      "languageCode": {
+        "type": "String"
+      }
+    }
+  },
+  "backLabel": "裏面 ({languageCode})",
+  "@backLabel": {
+    "placeholders": {
+      "languageCode": {
+        "type": "String"
+      }
+    }
+  },
+  "translationWillBeGenerated": "翻訳が生成されます",
+  "screenshotLabel": "スクリーンショット",
+  "noScreenshotAvailable": "スクリーンショットなし",
+  "cardDetailsTitle": "カード詳細",
+  "cardFrontLabel": "表面",
+  "cardBackLabel": "裏面",
+  "cardScreenshotLabel": "スクリーンショット",
+  "watchVideoSegmentButton": "動画で確認する",
+  "closeButtonLabel": "閉じる",
+  "followUs": "フォローする",
+  "shareButton": "共有",
+  "shareInvitationMessage": "Youtubeで英語を学ぼう！招待コード：{invitationCode} {downloadPrompt} {storeUrl} #Swipelingo",
+  "@shareInvitationMessage": {
+    "placeholders": {
+      "invitationCode": {
+        "type": "String"
+      },
+      "downloadPrompt": {
+        "type": "String"
+      },
+      "storeUrl": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadAppPrompt": "ダウンロードはこちら:",
+  "translationFailed": "翻訳に失敗しました。元のテキストで検索します。",
+  "searchWithTranslation": "翻訳して検索",
+  "@searchWithTranslation": {
+    "description": "翻訳して検索機能のオン/オフを切り替えるトグルスイッチのラベル"
+  },
+  "aiExplainButton": "AI解説",
+  "aiExplanationModalTitle": "「{word}」のAI解説",
+  "@aiExplanationModalTitle": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "aiExplanationError": "AI解説の取得に失敗しました。時間をおいて再度お試しください。",
+  "playerSettings": "プレイヤー設定",
+  "forceTranslatedCaptionsTitle": "強制的な翻訳字幕を表示する",
+  "forceTranslatedCaptionsDescription": "このオプションを有効にすると翻訳の自然さは失われますが、現在表示されている字幕と1:1の翻訳字幕が表示されるため、表示されている字幕の内容が理解しやすくなります。2つの字幕の更新タイミングが不自然な場合などに有効にしてください。",
+  "notificationPermissionPermanentlyDenied": "通知の許可が永続的に拒否されました。設定から有効にしてください。",
+  "openSettings": "設定を開く",
+  "showRubyText": "ルビ表示",
+  "@showRubyText": {
+    "description": "プレイヤー設定のルビ表示トグルスイッチのタイトル"
+  },
+  "showRubyTextDescription": "漢字にふりがなを表示します",
+  "@showRubyTextDescription": {
+    "description": "プレイヤー設定のルビ表示トグルスイッチの説明"
+  },
+  "updateRequiredTitle": "アップデートが必要です",
+  "@updateRequiredTitle": {
+    "description": "強制アップデートダイアログのタイトル"
+  },
+  "updateRequiredMessage": "新バージョンがリリースされました。アプリを継続して使用するには最新版へのアップデートが必要です。",
+  "@updateRequiredMessage": {
+    "description": "強制アップデートダイアログのメッセージ"
+  },
+  "updateNowButton": "今すぐアップデート",
+  "@updateNowButton": {
+    "description": "今すぐアップデートするボタンのテキスト"
+  },
+  "updateAvailableTitle": "アップデートのお知らせ",
+  "@updateAvailableTitle": {
+    "description": "任意アップデートダイアログのタイトル"
+  },
+  "updateAvailableMessage": "SwipeLingoの新バージョンが利用可能です。新機能や改善点を体験するために最新版へのアップデートをおすすめします。",
+  "@updateAvailableMessage": {
+    "description": "任意アップデートダイアログのメッセージ"
+  },
+  "updateButton": "アップデートする",
+  "@updateButton": {
+    "description": "アップデートボタンのテキスト"
+  },
+  "updateLaterButton": "あとで",
+  "@updateLaterButton": {
+    "description": "後でアップデートするボタンのテキスト"
+  },
+  "videoLearning": "動画学習",
+  "quickActions": "クイックアクション",
+  "youtubeUrlInput": "YouTube URL入力",
+  "videoSearch": "動画検索",
+  "recommendedVideos": "おすすめ動画",
+  "watchHistory": "視聴履歴",
+  "savedCards": "保存されたカード",
+  "loadingCards": "カードを読み込み中...",
+  "errorOccurredGeneric": "エラーが発生しました",
+  "welcomeBack": "おかえりなさい！",
+  "letsLearnTogether": "今日も一緒に学習しましょう",
+  "learningMenu": "学習メニュー",
+  "learningStatistics": "学習統計",
+  "consecutiveLearningRecord": "連続学習記録",
+  "loadingData": "読み込み中...",
+  "errorOccurredWithMessage": "エラーが発生しました",
+  "channelErrorMessage": "チャンネル情報を読み込めませんでした",
+  "youtubeChannel": "YouTube チャンネル",
+  "addFavoriteChannelsMessage": "お気に入りのYouTubeチャンネルを追加して\n効率的に学習しましょう！",
+  "noVideosInChannelMessage": "このチャンネルには動画がありません",
+  "pleaseWaitForNewVideos": "新しい動画が追加されるまでお待ちください",
+  "videosCount": "{count}本の動画",
+  "@videosCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "favoriteChannelVideosList": "お気に入りチャンネルの動画一覧",
+  "favoriteChannels": "お気に入り\nチャンネル",
+  "cardList": "カード\n一覧",
+  "watchHistoryShort": "視聴\n履歴",
+  "videoLearningSubtitle": "YouTubeで楽しく学習しよう",
+  "tapToSeeAnswer": "タップで答えを見る",
+  "swipeToRate": "スワイプして評価する",
+  "correctButton": "正解",
+  "incorrectButton": "不正解",
+  "voiceButton": "音声",
+  "notificationSettings": "通知設定",
+  "@notificationSettings": {
+    "description": "通知設定画面のタイトル"
+  },
+  "enableNotifications": "通知を有効にする",
+  "@enableNotifications": {
+    "description": "通知を有効にするラベル"
+  },
+  "notificationDescription": "学習習慣を維持するためのリマインダーを受け取る",
+  "@notificationDescription": {
+    "description": "通知設定の説明"
+  },
+  "notificationTime": "通知時刻",
+  "@notificationTime": {
+    "description": "通知時刻セクションのラベル"
+  },
+  "notificationTypes": "通知の種類",
+  "@notificationTypes": {
+    "description": "通知の種類セクションのラベル"
+  },
+  "dailyReminder": "デイリーリマインダー",
+  "@dailyReminder": {
+    "description": "デイリーリマインダーオプションのラベル"
+  },
+  "dailyReminderDescription": "毎日の学習リマインダーを受け取る",
+  "@dailyReminderDescription": {
+    "description": "デイリーリマインダーの説明"
+  },
+  "reviewReminder": "復習リマインダー",
+  "@reviewReminder": {
+    "description": "復習リマインダーオプションのラベル"
+  },
+  "reviewReminderDescription": "復習が必要なカードがある時に通知",
+  "@reviewReminderDescription": {
+    "description": "復習リマインダーの説明"
+  },
+  "milestoneNotification": "マイルストーン達成",
+  "@milestoneNotification": {
+    "description": "マイルストーン通知オプションのラベル"
+  },
+  "milestoneDescription": "学習の節目をお祝いする通知",
+  "@milestoneDescription": {
+    "description": "マイルストーン通知の説明"
+  },
+  "newContentNotification": "新着コンテンツ",
+  "@newContentNotification": {
+    "description": "新着コンテンツ通知オプションのラベル"
+  },
+  "newContentDescription": "新しいおすすめ動画の通知を受け取る",
+  "@newContentDescription": {
+    "description": "新着コンテンツ通知の説明"
+  },
+  "sendTestNotification": "テスト通知を送信",
+  "@sendTestNotification": {
+    "description": "テスト通知ボタンのラベル"
+  },
+  "testNotificationSent": "テスト通知を送信しました！",
+  "@testNotificationSent": {
+    "description": "テスト通知が送信された時のメッセージ"
+  },
+  "notificationPermissionDenied": "通知の許可が拒否されました。設定から有効にしてください。",
+  "@notificationPermissionDenied": {
+    "description": "通知の許可が拒否された時のエラーメッセージ"
+  },
+  "favoritesPlaylist": "お気に入り",
+  "@favoritesPlaylist": {
+    "description": "お気に入りプレイリストの名前"
+  },
+  "watchLaterPlaylist": "後で見る",
+  "@watchLaterPlaylist": {
+    "description": "後で見るプレイリストの名前"
+  }
+}
